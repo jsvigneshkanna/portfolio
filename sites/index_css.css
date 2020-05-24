@@ -1,0 +1,14 @@
+.skills.container.skills-text.skills-row.odd-row{
+	width: 100px;
+	float:left; 
+	 height:100px; 
+	 background:gray; 
+	 margin:10px
+}
+.skills.container.skills-text.skills-row.even-row{
+	width: 100px;
+	 float:right; 
+	 height:100px; 
+	 background:gray; 
+	 margin:10px
+}
