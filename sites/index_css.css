@@ -288,11 +288,11 @@ li a:focus{
 	align-content: center;
 	justify-content: center;
 	border-style: solid;
-	border-color: yellow;
+	border-color: #ff5c33;
 	border-width: 100%;
 	width: 10rem;
 	height: 10rem;
-	background-color: #ccebff; 
+	background-color: #cce6ff; 
 	transform: rotate(45deg);
 }
 .skills-row i{
@@ -616,7 +616,14 @@ footer p{
 	.skills .container{
 		align-items: center;
 		justify-content: center;
+	}
+
+	.skills-text{
 		flex-direction: column;
+	}
+
+	.skills-row .odd-row .image-container{
+		text-align: left;
 	}
 
 }
