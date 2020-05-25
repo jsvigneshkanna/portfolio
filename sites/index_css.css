@@ -616,15 +616,46 @@ footer p{
 	.skills .container{
 		align-items: center;
 		justify-content: center;
-	}
-
-	.skills-text{
+		padding: 0px;
 		flex-direction: column;
 	}
 
-	.skills-row .odd-row .image-container{
-		text-align: left;
+	.skills-row {
+		display:inline-flex;
+		margin-bottom: 2rem;
 	}
 
+	.skills-row div{
+		margin-right: 1rem;
+		margin-left: .8rem;
+	}
+	.skills-row .image-container{
+		margin-right: 0;
+	}
+
+	.skills-row .image-container{
+		width: 8rem;
+		height: 8rem;
+	}
+	.skills-row i{
+		font-size: 5.8rem;
+		transform: rotate(-45deg);
+		margin: auto;
+		color: #660066;
+	}
+
+
+
+	.timeline ul{
+		margin: 0 0 0 auto;
+	}
+
+	.timeline .date::before{
+		left: -20rem;
+	}
+
+	.timeline .date::after{
+		left: -5.9rem;
+	}
 }
 /*end of media querie*/
