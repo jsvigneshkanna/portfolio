@@ -522,7 +522,7 @@ footer p{
 	}
 	body{
 		background: url("images/bg-image-mobile1.jpg") no-repeat center fixed;
-		  background-size: contain;
+		  background-size: cover !important;
 		  opacity: initial;
 	}
 	.header-text h1{
