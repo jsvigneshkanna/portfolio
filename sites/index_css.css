@@ -13,10 +13,11 @@ html{
 }
 
 body{
-	height: 100%;
-	width: 100%;
 	background: url("images/bg-image-mobile3.jpg")no-repeat center fixed;
 	background-size: cover;
+	
+	height: 100%;
+	width: 100%;
 }
 
 a{
