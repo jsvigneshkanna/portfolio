@@ -526,7 +526,7 @@ footer p{
 		background-size: cover;
 	}
 	.header-text h1{
-		font-size: 2rem;
+		font-size: 2.3rem;
 		color: black;
 	}
 
@@ -548,13 +548,13 @@ footer p{
 		font-size: 3.5rem;
 	}
 	.profile-text .section-heading h1{
-		font-size: 4rem;
-		opacity: .4;
+		font-size: 4.5rem;
+		opacity: .6;
 		color: white;
 	}
 
 	.profile-text .section-heading h6{
-		font-size: 2rem;
+		font-size: 2.5rem;
 		color: white;
 		opacity: 1;
 	}
@@ -563,10 +563,7 @@ footer p{
 	font-size: 3.2rem;
 	bottom: .3rem;
 	}
-	.section-heading h6{
-		font-size: 1,4rem;
-		opacity: .6;
-	}
+	
 
 	.social-icons{
 		margin-top: 2.5rem;
@@ -580,9 +577,13 @@ footer p{
 	}
 	.icon-link a{
 		font-size: 1.7rem; 
+		font-style: italic;
+		border-radius: 20px;
 	}
 
-	
+	.icon-link a:hover{
+		background-color:  #b3ffff;
+	}
 
 	.about .container{
 		flex-direction: column;
@@ -594,7 +595,7 @@ footer p{
 		color: #001a33;
 	}
 	.fa-linkedin{
-		color: #80bfff;
+		color: #8080ff;
 	}
 	.fa-github{
 		color: #000000;
@@ -608,9 +609,11 @@ footer p{
 
 	.profile-image img{
 		margin: 0 0 2rem 0;
-		border-radius: 50px;
-		border-top: 5px solid white;
-		border-bottom: 5px solid white;
+		border-radius: 100px;
+		height: 70%;
+		border-color: none;
+		border-style: none;
+		border-spacing: 0;
 	}
 
 	hr{
@@ -665,10 +668,18 @@ footer p{
 	.projects img{
 		width: 50%;
 		margin: 0;
-		opacity: .7;
+		opacity: .8;
 		order: 1;
+		margin-top: 3rem;
+		margin-bottom: .7rem;
 	}
 
+	.view-details{
+		background-color: #cce6ff;
+		opacity: .7;
+		margin-left: 25%;
+		border-top: 2px white solid;
+	}
 	.projects-points{
 		list-style-type: upper-alpha;
 		padding: 2px;
@@ -680,6 +691,17 @@ footer p{
 		margin: 0;
 		order: 2;
 	}
+
+	.projects-description h1{
+		color: #00001a;
+	}
+
+	.projects-description h4{
+		font-style: italic;
+		color: #00001a;
+		opacity: .6;
+	}
+	
 
 	.projects p{
 		font-family: "Roboto", Monaco, monospace;
@@ -694,11 +716,21 @@ footer p{
 	}
 
 	.timeline p{
-		font-size: .8rem;
+		font-size: 1.1rem;
+		text-align: left;
+		margin-bottom: .6rem;
 	}
 
 	.timeline h1{
 		font-size: 1.2rem;
+		margin-bottom: 1rem;
+		font-weight: 600;
+	}
+
+	.timeline h3{
+		font-size: .8rem;
+		margin-bottom: 2rem;
+		font-weight: 300;
 	}
 	.timeline ul{
 		margin: 0 0 0 auto;
@@ -715,12 +747,29 @@ footer p{
 	}
 	.view-details{
 		border-bottom: 2px solid red;
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 
 	.timeline .date::before{
-		font-size: .7rem;
-		padding-left: 6.8rem;
+		color: white;
+		font-size: .8rem;
+		padding-left: 6.4rem;
+		font-weight: 700;
+	}
+
+	.timeline a{
+		color: #000080;
+		margin-top: .8rem;
+	}
+
+	.top-button{
+		margin-top: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.projects-points h3{
+		opacity: .7;
+
 	}
 
 }
